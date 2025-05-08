@@ -33,7 +33,9 @@ class Base:
             text_color=color,
             bg_color=bg_color
         )
-        
+
+    def add_buttons(self, buttons):
+        for item in buttons:
+            self.add_button(item)
     
-    
-    
+
