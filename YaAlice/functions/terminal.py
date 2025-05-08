@@ -2,7 +2,7 @@ import os
 import sys
 from typing import Optional
 
-def clear_console():
+def clear_terminal():
     platforms = {
         "linux": "clear",
         "linux2": "clear",

@@ -1,0 +1,21 @@
+embedded_errors_message: dict[str, str] = {
+    "k_log_output_immediately_not_set-ru": "'LOG_OUTPUT_IMMEDIATELY' не задан",
+    "k_log_output_immediately_setting_error-ru": "'LOG_OUTPUT_IMMEDIATELY' должен быть типа bool",
+    "k_all_messages_setting_error-ru": "'ALL_MESSAGES' должен быть словарём",
+    "k_error_message_setting_error-ru": "'ERROR_MESSAGE' отсутствует или не найден в ALL_MESSAGES",
+    "k_help_message_setting_error-ru": "'HELP_MESSAGE' отсутствует или не найден в ALL_MESSAGES",
+    "k_debug_language_setting_error-ru": "'DEBUG_LANGUAGE' должен быть строкой",
+    "k_debug_not_set-ru": "'DEBUG' не задан",
+    "k_log_output_immediately_not_set-ru": "'LOG_OUTPUT_IMMEDIATELY' не задан",
+    "k_time_zone_not_set-ru": "'TIME_ZONE' не задан",
+    "k_events_not_set-ru": "'EVENTS' не задан",
+    "k_text_for_key_word_not_set-ru": "'TEXT_FOR_KEY_WORDS' не задан",
+    "k_version_not_set-ru": "'VERSION' не задан",
+    "k_all_messages_not_set-ru": "'ALL_MESSAGES' не задан",
+    "k_starting_message_not_set-ru": "'STARTING_MESSAGE' не задан",
+    "k_error_message_not_set-ru": "'ERROR_MESSAGE' не задан",
+    "k_help_message_not_set-ru": "'HELP_MESSAGE' не задан",
+    "k_debug_language_not_set-ru": "'DEBUG_LANGUAGE' не задан",
+    "k_language_not_set-ru": "'LANGUAGE' не задан",
+    "k_source_text_not_set-ru": "'SOURCE_TEXT' не задан"
+}

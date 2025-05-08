@@ -7,6 +7,9 @@ YaAlice v0.0.1
 import datetime
 from typing import Self
 from YaAlice.base import Base
+from YaAlice.errors.errors import SettingsErrors
+from YaAlice.functions.terminal import clear_terminal
+from YaAlice.functions.valid_settings import new_settings_is_valid
 
 
 class YaAlice(Base):
@@ -22,5 +25,8 @@ class YaAlice(Base):
 
         self.params = alice_params
         self.settings = settings
-        self.add_log("configuration_options_log", color="yellow")
+
+        if self.settings.LOG_OUTPUT_IMMEDIATELY:
+            clear_terminal()
+        self.add_log("configuration_options_log", color="green")
         
