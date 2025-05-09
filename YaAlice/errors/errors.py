@@ -30,3 +30,7 @@ class MessageErrors(BaseErrors):
 class StorageErrors(BaseErrors):
     def __str__(self):
         return f"Storage Error: {self.get_dialog(self.msg).format(self.context)}"
+    
+class AliceRequestErrors(BaseErrors):
+    def __str__(self):
+        return f"Alice Request Error: {self.get_dialog(self.msg).format(self.context)}"

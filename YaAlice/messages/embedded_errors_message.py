@@ -17,5 +17,6 @@ embedded_errors_message: dict[str, str] = {
     "k_help_message_not_set-ru": "'HELP_MESSAGE' не задан",
     "k_debug_language_not_set-ru": "'DEBUG_LANGUAGE' не задан",
     "k_language_not_set-ru": "'LANGUAGE' не задан",
-    "k_source_text_not_set-ru": "'SOURCE_TEXT' не задан"
+    "k_source_text_not_set-ru": "'SOURCE_TEXT' не задан",
+    "k_new_boolean_setting_error-ru": "'new' должен быть типа bool",
 }
